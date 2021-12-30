@@ -325,6 +325,7 @@
 
 .devinfo {
     display: flex;
+    padding-left: 10px;
     font-family: 'Source Code Pro', monospace;
     justify-content: center;
     flex-direction: column;
