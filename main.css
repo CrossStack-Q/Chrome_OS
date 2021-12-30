@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+.hungry {
+    position: relative;
+    text-align: center;
+}
+
+.gif1 {
+    /* margin-bottom: -50px; */
+}
+
+.heade {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+    /* text-align: center; */
+    font-size: 70px;
+}
+
+.heade1 {
+    /* text-align: center; */
+}
+
+.see {
+    /* background-color: rgb(29, 144, 238); */
+    margin-top: -20%;
+    position: absolute;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+#gallery {
+    line-height: 0;
+    -webkit-column-count: 4;
+    /* split it into 5 columns */
+    -webkit-column-gap: 5px;
+    /* give it a 5px gap between columns */
+    -moz-column-count: 4;
+    -moz-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
+    margin-top: 0vw;
+    padding: 0%;
+    border: 0cm;
+}
+
+#gallery video {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 5px;
+    /* to match column gap */
+}
+
+@media (max-width: 1200px) {
+    #gallery {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (max-width: 1000px) {
+    #gallery {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (max-width: 800px) {
+    #gallery {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    #gallery {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+.he1 {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    font-size: 8vw;
+    margin-inline-start: 30%;
+}
+
+.he3 {
+    top: 100%;
+    font-size: 10vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.he4 {
+    font-size: 7vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10vw;
+    padding: 0%;
+    border: 0cm;
+    background-color: rgb(29, 144, 238);
+    color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+}
+
+.he5 {
+    font-size: 7vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10vw;
+    padding: 0%;
+    border: 0cm;
+    background-color: rgb(29, 144, 238);
+    color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#gallery3 {
+    line-height: 0;
+    -webkit-column-count: 1;
+    /* split it into 5 columns */
+    -webkit-column-gap: 5px;
+    /* give it a 5px gap between columns */
+    -moz-column-count: 1;
+    -moz-column-gap: 5px;
+    column-count: 1;
+    column-gap: 5px;
+}
+
+#gallery3 video {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 5px;
+    /* to match column gap */
+}
+
+@media (max-width: 1200px) {
+    #gallery3 {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (max-width: 1000px) {
+    #gallery3 {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (max-width: 800px) {
+    #gallery3 {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (max-width: 400px) {
+    #gallery3 {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+.he6 {
+    font-size: 7vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10vw;
+    padding: 0%;
+    border: 0cm;
+    background-color: rgb(29, 144, 238);
+    color: #fff;
+    margin-block-start: 1.5em;
+    margin-block-end: 0.5em;
+}
+
+#gallery2 {
+    line-height: 0;
+    /* margin-top: -4px; */
+    -webkit-column-count: 1;
+    /* split it into 5 columns */
+    -webkit-column-gap: 5px;
+    /* give it a 5px gap between columns */
+    -moz-column-count: 1;
+    -moz-column-gap: 5px;
+    column-count: 1;
+    column-gap: 5px;
+}
+
+#gallery2 video {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 5px;
+    /* to match column gap */
+}
+
+@media (max-width: 1200px) {
+    #gallery2 {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (max-width: 1000px) {
+    #gallery2 {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (max-width: 800px) {
+    #gallery2 {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (max-width: 400px) {
+    #gallery2 {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+* {
+    box-sizing: border-box
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+#gallery5 {
+    line-height: 0;
+    -webkit-column-count: 6;
+    /* split it into 5 columns */
+    -webkit-column-gap: 5px;
+    /* give it a 5px gap between columns */
+    -moz-column-count: 6;
+    -moz-column-gap: 5px;
+    column-count: 6;
+    column-gap: 5px;
+    margin-top: 0vw;
+    padding: 0%;
+    border: 0cm;
+}
+
+#gallery5 img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 5px;
+    /* to match column gap */
+}
+
+@media (max-width: 1200px) {
+    #gallery5 {
+        -moz-column-count: 6;
+        -webkit-column-count: 6;
+        column-count: 6;
+    }
+}
+
+@media (max-width: 1000px) {
+    #gallery5 {
+        -moz-column-count: 6;
+        -webkit-column-count: 6;
+        column-count: 6;
+    }
+}
+
+@media (max-width: 800px) {
+    #gallery5 {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (max-width: 400px) {
+    #gallery5 {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+.imgContainer12 {
+    float: left;
+}
+
+.devinfo {
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.hello {
+    /* padding-top: 20px; */
+    /* padding-left: 190px; */
+    /* font-size: 30px; */
+}
+
+.name {
+    background-color: rgb(255, 255, 255);
+    color: #2a2b2a;
+    /* padding-top: 30px; */
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    /* padding-left: 190px; */
+}
+
+.about {
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    /* font-weight: bold; */
+    /* padding-left: 190px; */
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: rgb(35, 111, 211);
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* font-size: 17px; */
+}
+
+
+/* Add an active class to highlight the current page */
+
+.active {
+    background-color: #1d11cc;
+    color: white;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* Dropdown container - needed to position the dropdown content */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Style the dropdown button to fit inside the topnav */
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+/* Style the dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #313131;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Style the links inside the dropdown */
+
+.dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+
+
+/* Add a grey background to dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 300px) {
+    .topnav a:not(:first-child),
+    .dropdown .dropbtn {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 300px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
